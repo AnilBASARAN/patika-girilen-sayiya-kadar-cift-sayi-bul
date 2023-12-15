@@ -4,6 +4,10 @@ public class GirilenSayilar {
         int number,sum,count;
         Scanner input = new Scanner(System.in);
 
+        // sayıları bulurken bulduğumuz sayıların kaç tane olduğunu count değşkeninde saklıyoruz
+        // bu sayıların toplamını ise sum adlı değişkende topladıktan sonra
+        // sum/ count olarak yazdırıyoruz.
+
         System.out.print("Bir sayı giriniz.  ");
         number = input.nextInt();
 
